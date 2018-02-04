@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="aYy-PE-Nvx">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="wA6-ut-dl8">
+            <objects>
+                <tabBarController storyboardIdentifier="TabBarId" id="aYy-PE-Nvx" sceneMemberID="viewController">
+                    <extendedEdge key="edgesForExtendedLayout" top="YES"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" clipsSubviews="YES" contentMode="scaleAspectFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" backgroundImage="Navigation Bar + Background Copy Mask" id="Jc1-6R-Y4p">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                        <viewLayoutGuide key="safeArea" id="cv1-80-ukG"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </tabBar>
+                    <connections>
+                        <segue destination="vTg-F8-gyq" kind="relationship" relationship="viewControllers" id="rIw-ii-c1o"/>
+                        <segue destination="LzJ-vf-YAY" kind="relationship" relationship="viewControllers" id="rzO-aI-Jlq"/>
+                        <segue destination="qi3-IK-QiX" kind="relationship" relationship="viewControllers" id="dpu-s4-XXe"/>
+                        <segue destination="ue8-0W-ly1" kind="relationship" relationship="viewControllers" id="1LX-iP-z6R"/>
+                        <segue destination="odT-Jc-Qt9" kind="relationship" relationship="viewControllers" id="mEA-gS-SDb"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qw1-7K-2Ss" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2041" y="-702"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="OD7-Fk-rYN">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Home" id="vTg-F8-gyq" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="G5U-FH-xcC"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xcl-b1-d4S" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1358" y="-121"/>
+        </scene>
+        <!--Discover-->
+        <scene sceneID="Nk8-G2-LaJ">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Discover" id="LzJ-vf-YAY" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="dAn-FL-RRx"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EPc-2v-Ylq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1618" y="-121"/>
+        </scene>
+        <!--MakePost-->
+        <scene sceneID="p1E-jm-qnr">
+            <objects>
+                <viewControllerPlaceholder storyboardName="MakePost" id="qi3-IK-QiX" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" id="LMW-xE-ePW"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5zu-sf-HTG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2040" y="-121"/>
+        </scene>
+        <!--Activity-->
+        <scene sceneID="xKe-xg-GIB">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Activity" id="ue8-0W-ly1" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="7d6-wh-MNd"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ssh-uR-man" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2494" y="-121"/>
+        </scene>
+        <!--Profile-->
+        <scene sceneID="bfk-SH-GQe">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Profile" id="odT-Jc-Qt9" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="iWQ-p1-AkW"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="edT-mj-JOP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2787" y="-121"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Navigation Bar + Background Copy Mask" width="414" height="50"/>
+    </resources>
+</document>
