@@ -35,7 +35,6 @@
 		5E673150201D5AF500856075 /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E67314F201D5AF500856075 /* PreviewViewController.swift */; };
 		5E673152201D619300856075 /* CustomCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E673151201D619300856075 /* CustomCameraViewController.swift */; };
 		5E673154201D62DD00856075 /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E673153201D62DD00856075 /* RecordViewController.swift */; };
-		5E6D22FB20269CC60085AB52 /* Activity.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E6D22FA20269CC60085AB52 /* Activity.storyboard */; };
 		5E6D22FD2026D4C80085AB52 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E6D22FC2026D4C80085AB52 /* GoogleService-Info.plist */; };
 		5E73AD0E20044C4A002E154C /* CommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E73AD0D20044C4A002E154C /* CommentViewController.swift */; };
 		5E73AD1020044CA4002E154C /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E73AD0F20044CA4002E154C /* CommentTableViewCell.swift */; };
@@ -58,14 +57,15 @@
 		5E9FAE361FFB2EE30064049D /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9FAE351FFB2EE30064049D /* AuthService.swift */; };
 		5E9FAE381FFB538D0064049D /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9FAE371FFB538D0064049D /* Config.swift */; };
 		5E9FAE481FFB62DD0064049D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9FAE471FFB62DD0064049D /* QuartzCore.framework */; };
-		5E9FAE4F1FFB672A0064049D /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5E9FAE4C1FFB672A0064049D /* ProgressHUD.bundle */; };
-		5E9FAE501FFB672A0064049D /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9FAE4E1FFB672A0064049D /* ProgressHUD.m */; };
 		5EC855A1200BE1840063369B /* HeaderProfileCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC855A0200BE1840063369B /* HeaderProfileCollectionReusableView.swift */; };
 		5EC855A3200C87170063369B /* MyPostApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC855A2200C87170063369B /* MyPostApi.swift */; };
 		5EC855A5200D2F7D0063369B /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC855A4200D2F7D0063369B /* PhotoCollectionViewCell.swift */; };
 		5EC855A7200D657D0063369B /* HelperService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC855A6200D657D0063369B /* HelperService.swift */; };
 		5EEA92BF2014E30C0055AAC3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEA92BE2014E30C0055AAC3 /* DetailViewController.swift */; };
-		5EF68AC8201EF77A00C7E9F1 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EF68AC7201EF77A00C7E9F1 /* Home.storyboard */; };
+		B19337E02026DF0300A20F52 /* Activity.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B19337DF2026DF0300A20F52 /* Activity.storyboard */; };
+		B19337E22026DF1500A20F52 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B19337E12026DF1400A20F52 /* Home.storyboard */; };
+		B19337EA2026E16700A20F52 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B19337E72026E16700A20F52 /* ProgressHUD.m */; };
+		B19337EB2026E16700A20F52 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B19337E92026E16700A20F52 /* ProgressHUD.bundle */; };
 		F64E8D537FFB02F2B8987F01 /* Pods_hoopr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 344F790D257FEC0906E663A9 /* Pods_hoopr.framework */; };
 /* End PBXBuildFile section */
 
@@ -116,7 +116,6 @@
 		5E67314F201D5AF500856075 /* PreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
 		5E673151201D619300856075 /* CustomCameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCameraViewController.swift; sourceTree = "<group>"; };
 		5E673153201D62DD00856075 /* RecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
-		5E6D22FA20269CC60085AB52 /* Activity.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Activity.storyboard; path = ../../../../Documents/usehoopr/hoopr/Storyboards/Activity.storyboard; sourceTree = "<group>"; };
 		5E6D22FC2026D4C80085AB52 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5E73AD0D20044C4A002E154C /* CommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentViewController.swift; sourceTree = "<group>"; };
 		5E73AD0F20044CA4002E154C /* CommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
@@ -141,15 +140,16 @@
 		5E9FAE371FFB538D0064049D /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		5E9FAE471FFB62DD0064049D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		5E9FAE4B1FFB67290064049D /* hoopr-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hoopr-Bridging-Header.h"; sourceTree = "<group>"; };
-		5E9FAE4C1FFB672A0064049D /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ProgressHUD.bundle; path = "../../../Downloads/ProgressHUD-master/ProgressHUD/ProgressHUD/ProgressHUD.bundle"; sourceTree = "<group>"; };
-		5E9FAE4D1FFB672A0064049D /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProgressHUD.h; path = "../../../Downloads/ProgressHUD-master/ProgressHUD/ProgressHUD/ProgressHUD.h"; sourceTree = "<group>"; };
-		5E9FAE4E1FFB672A0064049D /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProgressHUD.m; path = "../../../Downloads/ProgressHUD-master/ProgressHUD/ProgressHUD/ProgressHUD.m"; sourceTree = "<group>"; };
 		5EC855A0200BE1840063369B /* HeaderProfileCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderProfileCollectionReusableView.swift; sourceTree = "<group>"; };
 		5EC855A2200C87170063369B /* MyPostApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPostApi.swift; sourceTree = "<group>"; };
 		5EC855A4200D2F7D0063369B /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 		5EC855A6200D657D0063369B /* HelperService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperService.swift; sourceTree = "<group>"; };
 		5EEA92BE2014E30C0055AAC3 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		5EF68AC7201EF77A00C7E9F1 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Home.storyboard; path = ../../../../.Trash/Home.storyboard; sourceTree = "<group>"; };
+		B19337DF2026DF0300A20F52 /* Activity.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Activity.storyboard; sourceTree = "<group>"; };
+		B19337E12026DF1400A20F52 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		B19337E72026E16700A20F52 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
+		B19337E82026E16700A20F52 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
+		B19337E92026E16700A20F52 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,9 +181,9 @@
 				5E1BBF9D1FF8A88A0060E88B /* Main.storyboard */,
 				5E1C53521FF8B1C800F53602 /* Discover.storyboard */,
 				5E1C53541FF8B1F100F53602 /* MakePost.storyboard */,
-				5E6D22FA20269CC60085AB52 /* Activity.storyboard */,
+				B19337DF2026DF0300A20F52 /* Activity.storyboard */,
 				5E1C53581FF8B22A00F53602 /* Profile.storyboard */,
-				5EF68AC7201EF77A00C7E9F1 /* Home.storyboard */,
+				B19337E12026DF1400A20F52 /* Home.storyboard */,
 				5E9FAE331FFAE8080064049D /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
@@ -272,11 +272,11 @@
 				5E2B27701FF5C804004E7645 /* Assets.xcassets */,
 				5E2B27751FF5C804004E7645 /* Info.plist */,
 				5E6D22FC2026D4C80085AB52 /* GoogleService-Info.plist */,
-				5E9FAE4C1FFB672A0064049D /* ProgressHUD.bundle */,
-				5E9FAE4D1FFB672A0064049D /* ProgressHUD.h */,
-				5E9FAE4E1FFB672A0064049D /* ProgressHUD.m */,
 				5E9FAE4B1FFB67290064049D /* hoopr-Bridging-Header.h */,
 				5E8710C8201042D1004B1F3A /* usehoopr-bridging-header.h */,
+				B19337E92026E16700A20F52 /* ProgressHUD.bundle */,
+				B19337E82026E16700A20F52 /* ProgressHUD.h */,
+				B19337E72026E16700A20F52 /* ProgressHUD.m */,
 			);
 			path = hoopr;
 			sourceTree = "<group>";
@@ -366,15 +366,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E9FAE4F1FFB672A0064049D /* ProgressHUD.bundle in Resources */,
-				5EF68AC8201EF77A00C7E9F1 /* Home.storyboard in Resources */,
+				B19337EB2026E16700A20F52 /* ProgressHUD.bundle in Resources */,
+				B19337E22026DF1500A20F52 /* Home.storyboard in Resources */,
 				5E2B27711FF5C804004E7645 /* Assets.xcassets in Resources */,
 				5E2B277C1FF5D2E0004E7645 /* Start.storyboard in Resources */,
 				5E1BBF9E1FF8A88A0060E88B /* Main.storyboard in Resources */,
 				5E6D22FD2026D4C80085AB52 /* GoogleService-Info.plist in Resources */,
 				5E1C53551FF8B1F100F53602 /* MakePost.storyboard in Resources */,
+				B19337E02026DF0300A20F52 /* Activity.storyboard in Resources */,
 				5E1C53591FF8B22A00F53602 /* Profile.storyboard in Resources */,
-				5E6D22FB20269CC60085AB52 /* Activity.storyboard in Resources */,
 				5E1C53531FF8B1C800F53602 /* Discover.storyboard in Resources */,
 				5E9FAE341FFAE8080064049D /* LaunchScreen.storyboard in Resources */,
 			);
@@ -487,6 +487,7 @@
 				5E8ED086201E3CB5009297DD /* PlayerViewController.swift in Sources */,
 				5E2B27841FF61C90004E7645 /* SignUpViewController.swift in Sources */,
 				5E4D26C42022812C008DE93F /* ChatViewController.swift in Sources */,
+				B19337EA2026E16700A20F52 /* ProgressHUD.m in Sources */,
 				5E73AD0E20044C4A002E154C /* CommentViewController.swift in Sources */,
 				5EC855A3200C87170063369B /* MyPostApi.swift in Sources */,
 				5E73AD1A20070890002E154C /* Api.swift in Sources */,
@@ -497,7 +498,6 @@
 				5E8710D020112F5B004B1F3A /* DiscoverViewController.swift in Sources */,
 				5EEA92BF2014E30C0055AAC3 /* DetailViewController.swift in Sources */,
 				5E73AD1E20070CB8002E154C /* CommentApi.swift in Sources */,
-				5E9FAE501FFB672A0064049D /* ProgressHUD.m in Sources */,
 				5E73AD2020070CE8002E154C /* Post_CommentApi.swift in Sources */,
 				5E2B27821FF5FD77004E7645 /* SignInViewController.swift in Sources */,
 				5E673144201ABB0700856075 /* HashTagApi.swift in Sources */,
