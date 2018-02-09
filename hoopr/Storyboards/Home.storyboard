@@ -33,7 +33,7 @@
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" misplaced="YES" reuseIdentifier="PhotoCollectionViewCell" id="7tB-tT-rUD" customClass="PhotoCollectionViewCell" customModule="hoopr" customModuleProvider="target">
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PhotoCollectionViewCell" id="7tB-tT-rUD" customClass="PhotoCollectionViewCell" customModule="hoopr" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="103" height="103"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -53,11 +53,8 @@
                                     <constraint firstItem="3lJ-MM-5Xx" firstAttribute="leading" secondItem="7tB-tT-rUD" secondAttribute="leading" id="8ro-Qp-ZG8"/>
                                     <constraint firstAttribute="trailing" secondItem="3lJ-MM-5Xx" secondAttribute="trailing" id="ASw-3K-M0a"/>
                                     <constraint firstAttribute="bottom" secondItem="3lJ-MM-5Xx" secondAttribute="bottom" id="CGO-bk-lXX"/>
-                                    <constraint firstAttribute="bottom" secondItem="3lJ-MM-5Xx" secondAttribute="bottom" id="OMg-X3-oqU"/>
-                                    <constraint firstAttribute="bottom" secondItem="3lJ-MM-5Xx" secondAttribute="bottom" id="bPZ-Xc-Kae"/>
                                     <constraint firstAttribute="trailing" secondItem="3lJ-MM-5Xx" secondAttribute="trailing" id="kqi-Yj-0eS"/>
                                     <constraint firstItem="3lJ-MM-5Xx" firstAttribute="top" secondItem="7tB-tT-rUD" secondAttribute="top" id="ndN-sv-7ae"/>
-                                    <constraint firstItem="3lJ-MM-5Xx" firstAttribute="top" secondItem="7tB-tT-rUD" secondAttribute="top" id="wDM-1p-pvs"/>
                                 </constraints>
                                 <connections>
                                     <outlet property="photo" destination="3lJ-MM-5Xx" id="02L-hL-fXM"/>
@@ -226,6 +223,12 @@
                                                         </userDefinedRuntimeAttribute>
                                                     </userDefinedRuntimeAttributes>
                                                 </view>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yad-zp-d5n">
+                                                    <rect key="frame" x="327" y="435" width="30" height="30"/>
+                                                    <connections>
+                                                        <action selector="shareBtn_TouchUpInside:" destination="Fh3-zZ-Gyz" eventType="touchUpInside" id="TFL-fP-PVy"/>
+                                                    </connections>
+                                                </button>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="dux-gG-SXI" firstAttribute="top" secondItem="fbt-qH-FLa" secondAttribute="bottom" constant="10" id="0iv-oG-n0U"/>
@@ -235,6 +238,7 @@
                                                 <constraint firstItem="zVc-5c-ee9" firstAttribute="leading" secondItem="xLN-ys-ob3" secondAttribute="leading" constant="15" id="GRJ-8h-zJ4"/>
                                                 <constraint firstItem="FSM-U2-4HF" firstAttribute="centerY" secondItem="fbt-qH-FLa" secondAttribute="centerY" id="GYA-xd-KaZ"/>
                                                 <constraint firstItem="BeR-Zo-yHN" firstAttribute="bottom" secondItem="dux-gG-SXI" secondAttribute="bottom" constant="-15" id="Ig1-lE-Yba"/>
+                                                <constraint firstItem="uet-JC-XtN" firstAttribute="top" secondItem="Yad-zp-d5n" secondAttribute="bottom" constant="-27" id="JqH-tR-cnj"/>
                                                 <constraint firstItem="fbt-qH-FLa" firstAttribute="leading" secondItem="xLN-ys-ob3" secondAttribute="leading" constant="10" id="OXQ-E9-XgZ"/>
                                                 <constraint firstItem="oOD-dB-28E" firstAttribute="leading" secondItem="xLN-ys-ob3" secondAttribute="leading" constant="15" id="OtY-XJ-D0Z"/>
                                                 <constraint firstItem="oOD-dB-28E" firstAttribute="top" secondItem="R7e-Dk-Rfa" secondAttribute="bottom" constant="14" id="Qhw-fe-S2P"/>
@@ -245,6 +249,7 @@
                                                 <constraint firstAttribute="trailing" secondItem="R7e-Dk-Rfa" secondAttribute="trailing" id="Ykb-RA-R14"/>
                                                 <constraint firstItem="7qD-3H-nMX" firstAttribute="leading" secondItem="xLN-ys-ob3" secondAttribute="leading" id="Zog-D3-onw"/>
                                                 <constraint firstAttribute="trailing" secondItem="dux-gG-SXI" secondAttribute="trailing" id="aSb-dW-fsm"/>
+                                                <constraint firstItem="Yad-zp-d5n" firstAttribute="centerX" secondItem="uet-JC-XtN" secondAttribute="centerX" id="eEU-bn-cVJ"/>
                                                 <constraint firstItem="7qD-3H-nMX" firstAttribute="top" secondItem="xLN-ys-ob3" secondAttribute="top" constant="10" id="fl6-Mn-7UR"/>
                                                 <constraint firstItem="pb8-TA-FZQ" firstAttribute="leading" secondItem="dED-EA-erv" secondAttribute="trailing" constant="20" id="iAx-JB-gJO"/>
                                                 <constraint firstItem="dux-gG-SXI" firstAttribute="leading" secondItem="xLN-ys-ob3" secondAttribute="leading" id="lFj-hZ-X6C"/>
@@ -273,6 +278,7 @@
                                             <outlet property="postImageView" destination="dux-gG-SXI" id="aAo-Yk-gc8"/>
                                             <outlet property="profileImageView" destination="fbt-qH-FLa" id="1x7-xT-eLJ"/>
                                             <outlet property="seperatorCardView" destination="R7e-Dk-Rfa" id="SeY-29-vbk"/>
+                                            <outlet property="shareBtn" destination="Yad-zp-d5n" id="ARv-JF-epO"/>
                                             <outlet property="shareImageView" destination="uet-JC-XtN" id="hd1-oa-8DS"/>
                                             <outlet property="timeLabel" destination="MDq-SZ-d3I" id="XMj-nu-fIm"/>
                                             <outlet property="videoContainer" destination="dux-gG-SXI" id="2UZ-ur-X6u"/>

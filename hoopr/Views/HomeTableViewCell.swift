@@ -33,6 +33,7 @@ class HomeTableViewCell: UITableViewCell {
     @IBOutlet weak var volumeView: UIView!
     @IBOutlet weak var volumeButton: UIButton!
     @IBOutlet weak var timeLabel: UILabel!
+    @IBOutlet weak var shareBtn: UIButton!
     
     var delegate: HomeTableViewCellDelegate?
     var player: AVPlayer?
@@ -49,7 +50,8 @@ class HomeTableViewCell: UITableViewCell {
         }
     }
     
-   
+    
+    
     
     var isMuted = true
     
@@ -156,6 +158,7 @@ class HomeTableViewCell: UITableViewCell {
     var isLiked = false
     
     
+    
     func updateLike(post: Post) {
         let imageName = post.likes == nil || !post.isLiked! ? "like" : "likeSelected"
         isLiked = (imageName == "like") ? false : true
@@ -221,15 +224,17 @@ class HomeTableViewCell: UITableViewCell {
         gesture.numberOfTapsRequired = 2
         contentView.addGestureRecognizer(gesture)
         
+        
         let tapGestureForVolume = UITapGestureRecognizer(target: self, action:#selector(self.onTapp))
-        tapGestureForVolume.numberOfTapsRequired = 1
+        tapGestureForVolume.numberOfTapsRequired = 2
         contentView.addGestureRecognizer(tapGestureForVolume)
+        
         
     }
     
     @objc func onTapp() {
         volumeBtn_TouchUpInside(volumeButton)
-        
+
     }
     
     @objc func onDoubleTap() {
@@ -291,6 +296,10 @@ class HomeTableViewCell: UITableViewCell {
         if let id = post?.id {
             delegate?.goToCommentVC(postId: id)
         }
+    }
+    
+    @objc func shareImageView_TouchUpInside() {
+       
     }
     
     override func prepareForReuse() {
