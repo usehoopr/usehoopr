@@ -195,11 +195,11 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <view hidden="YES" alpha="0.80000001192092896" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BeR-Zo-yHN">
-                                                    <rect key="frame" x="15" y="378" width="30" height="30"/>
+                                                <view hidden="YES" alpha="0.80000001192092896" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BeR-Zo-yHN">
+                                                    <rect key="frame" x="15" y="378" width="148" height="30"/>
                                                     <subviews>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d2q-NN-oYH">
-                                                            <rect key="frame" x="7" y="6" width="17" height="17"/>
+                                                            <rect key="frame" x="6.6666666666666679" y="6" width="17" height="17"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="17" id="mqI-Hm-bzi"/>
                                                                 <constraint firstAttribute="width" constant="17" id="qdj-Rk-ujX"/>
@@ -209,6 +209,13 @@
                                                                 <action selector="volumeBtn_TouchUpInside:" destination="Fh3-zZ-Gyz" eventType="touchUpInside" id="lVx-vX-zqk"/>
                                                             </connections>
                                                         </button>
+                                                        <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="TAP FOR SOUND" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sMz-UX-9pv">
+                                                            <rect key="frame" x="31" y="8" width="112" height="15"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                            <textInputTraits key="textInputTraits"/>
+                                                        </textField>
                                                     </subviews>
                                                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                                     <constraints>
@@ -278,7 +285,6 @@
                                             <outlet property="postImageView" destination="dux-gG-SXI" id="aAo-Yk-gc8"/>
                                             <outlet property="profileImageView" destination="fbt-qH-FLa" id="1x7-xT-eLJ"/>
                                             <outlet property="seperatorCardView" destination="R7e-Dk-Rfa" id="SeY-29-vbk"/>
-                                            <outlet property="shareBtn" destination="Yad-zp-d5n" id="ARv-JF-epO"/>
                                             <outlet property="shareImageView" destination="uet-JC-XtN" id="hd1-oa-8DS"/>
                                             <outlet property="timeLabel" destination="MDq-SZ-d3I" id="XMj-nu-fIm"/>
                                             <outlet property="videoContainer" destination="dux-gG-SXI" id="2UZ-ur-X6u"/>

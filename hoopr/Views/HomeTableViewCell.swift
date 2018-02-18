@@ -33,7 +33,7 @@ class HomeTableViewCell: UITableViewCell {
     @IBOutlet weak var volumeView: UIView!
     @IBOutlet weak var volumeButton: UIButton!
     @IBOutlet weak var timeLabel: UILabel!
-    @IBOutlet weak var shareBtn: UIButton!
+    
     
     var delegate: HomeTableViewCellDelegate?
     var player: AVPlayer?
@@ -138,6 +138,10 @@ class HomeTableViewCell: UITableViewCell {
         
 
             self.updateLike(post: self.post!)
+        
+        let tapGestureForVolume = UITapGestureRecognizer(target: self, action: #selector(HomeTableViewCell.muteMethod(_:)))
+        tapGestureForVolume.numberOfTapsRequired = 1
+        contentView.addGestureRecognizer(tapGestureForVolume)
     }
     
 
@@ -225,9 +229,11 @@ class HomeTableViewCell: UITableViewCell {
         contentView.addGestureRecognizer(gesture)
         
         
-        let tapGestureForVolume = UITapGestureRecognizer(target: self, action:#selector(self.onTapp))
-        tapGestureForVolume.numberOfTapsRequired = 2
-        contentView.addGestureRecognizer(tapGestureForVolume)
+        
+        
+//        let tapGestureForVolume = UITapGestureRecognizer(target: self, action:#selector(self.onTapp))
+//        tapGestureForVolume.numberOfTapsRequired = 1
+//        contentView.addGestureRecognizer(tapGestureForVolume)
         
         
     }
@@ -298,9 +304,7 @@ class HomeTableViewCell: UITableViewCell {
         }
     }
     
-    @objc func shareImageView_TouchUpInside() {
-       
-    }
+    
     
     override func prepareForReuse() {
         super.prepareForReuse()
