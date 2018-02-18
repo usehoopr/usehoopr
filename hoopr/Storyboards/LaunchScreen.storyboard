@@ -23,14 +23,18 @@
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" preservesSuperviewLayoutMargins="YES" image="hoopr-logo brand" translatesAutoresizingMaskIntoConstraints="NO" id="Sbq-75-qc0">
                                 <rect key="frame" x="150" y="145" width="109" height="157"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="109" id="3GM-1a-jSx"/>
+                                    <constraint firstAttribute="height" constant="157" id="3Jn-il-vvA"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="Sbq-75-qc0" firstAttribute="centerY" secondItem="XW4-0h-1nX" secondAttribute="centerY" constant="-144.5" id="0Hg-xi-EDS"/>
-                            <constraint firstItem="Sbq-75-qc0" firstAttribute="centerX" secondItem="XW4-0h-1nX" secondAttribute="centerX" constant="-2.5" id="M5k-jG-haN"/>
+                            <constraint firstItem="Sbq-75-qc0" firstAttribute="top" secondItem="AYF-kH-jXw" secondAttribute="top" constant="125" id="CFy-kp-FTW"/>
                             <constraint firstItem="XW4-0h-1nX" firstAttribute="trailing" secondItem="AYF-kH-jXw" secondAttribute="trailing" id="Pd9-Kr-EvQ"/>
                             <constraint firstItem="XW4-0h-1nX" firstAttribute="bottom" secondItem="AYF-kH-jXw" secondAttribute="bottom" id="WF9-9Y-iMB"/>
+                            <constraint firstItem="Sbq-75-qc0" firstAttribute="leading" secondItem="AYF-kH-jXw" secondAttribute="leading" constant="150" id="akS-xB-tg7"/>
                             <constraint firstItem="XW4-0h-1nX" firstAttribute="leading" secondItem="AYF-kH-jXw" secondAttribute="leading" id="tS0-3y-HqO"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="AYF-kH-jXw"/>

@@ -139,9 +139,7 @@ class HomeTableViewCell: UITableViewCell {
 
             self.updateLike(post: self.post!)
         
-        let tapGestureForVolume = UITapGestureRecognizer(target: self, action: #selector(HomeTableViewCell.muteMethod(_:)))
-        tapGestureForVolume.numberOfTapsRequired = 1
-        contentView.addGestureRecognizer(tapGestureForVolume)
+       
     }
     
 
