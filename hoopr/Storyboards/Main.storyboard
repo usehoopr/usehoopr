@@ -63,7 +63,7 @@
         <scene sceneID="p1E-jm-qnr">
             <objects>
                 <viewControllerPlaceholder storyboardName="MakePost" id="qi3-IK-QiX" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" id="LMW-xE-ePW"/>
+                    <tabBarItem key="tabBarItem" title="" selectedImage="POST BUTTON-1" id="LMW-xE-ePW"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5zu-sf-HTG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -92,5 +92,6 @@
     </scenes>
     <resources>
         <image name="Navigation Bar + Background Copy Mask" width="414" height="50"/>
+        <image name="POST BUTTON-1" width="64" height="62"/>
     </resources>
 </document>

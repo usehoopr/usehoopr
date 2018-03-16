@@ -8,6 +8,7 @@
 
 import UIKit
 import AVFoundation
+import ImagePicker
 
 class PostViewController: UIViewController {
     

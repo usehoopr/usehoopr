@@ -17,6 +17,7 @@ pod 'SDWebImage'
 pod 'KILabel'
 pod 'JSQMessagesViewController'
 pod 'MessageKit'
+pod 'ImagePicker'
 
 
 

@@ -104,7 +104,7 @@
                                 <action selector="remove_TouchUpInside:" destination="JD8-Qa-SOv" id="Wcc-N1-Trn"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" image="video" id="1WC-nw-EJa">
+                        <barButtonItem key="rightBarButtonItem" systemItem="camera" id="1WC-nw-EJa">
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
                                 <action selector="cameraBtn_TouchUpInside:" destination="JD8-Qa-SOv" id="i6N-0r-LNU"/>
@@ -128,7 +128,7 @@
         <scene sceneID="WYn-Ey-LKs">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="IVb-OK-J6t" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="hoop post" selectedImage="hoop post" springLoaded="YES" id="ERn-uD-BmR">
+                    <tabBarItem key="tabBarItem" title="" image="POST BUTTON-1" selectedImage="POST BUTTON-1" springLoaded="YES" id="ERn-uD-BmR">
                         <inset key="imageInsets" minX="0.0" minY="-9" maxX="0.0" maxY="-6"/>
                         <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="48"/>
                     </tabBarItem>
@@ -319,10 +319,9 @@
     <resources>
         <image name="BackgroundMask" width="414" height="736"/>
         <image name="CameraButton" width="122" height="122"/>
+        <image name="POST BUTTON-1" width="64" height="62"/>
         <image name="cross" width="40" height="40"/>
         <image name="default-placeholder-300x300" width="300" height="300"/>
-        <image name="hoop post" width="62" height="65"/>
-        <image name="video" width="22" height="20"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="1N6-EZ-1iy"/>
